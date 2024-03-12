@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/icon-calculator.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grade Calculator</title>
+  </head>
+  <body>
+    <form id="grade-check">
+      <div class="box">
+        <h1>Grade Calculator</h1>
+        <input
+          type="number"
+          id="Total-Marks"
+          placeholder="Enter Your Total Marks"
+          required
+        />
+        <input
+          type="number"
+          id="total-obtain-marks"
+          placeholder="Enter Your Total Obtain Marks"
+          required
+        />
+        <h4 id="result"></h4>
+        <button class="checker-button">Grade Check</button>
+      </div>
+    </form>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
